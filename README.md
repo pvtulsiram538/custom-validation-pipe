@@ -23,7 +23,9 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Hello, In nest js we have validation pipes which gives strict type definitions and request params validations also.But on other side ajv is more powerful and it has more flexibility for json payload validations.
+So, we can combine both by creating custom validations. I am adding extra bonus functionality where you can save all your schema for each route in mongoDb 
+But for every request , we should not give an extra burden as mongo db fetch operation, So I want to add a cache Db i.e. mini mongo where I save schema details on bootstrap and whenver schema changes
 
 ## Project setup
 
